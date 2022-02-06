@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Link from 'next/link';
 import styles from '../styles/layout.module.scss';
 
 export default function Layout({ children }) {
@@ -15,12 +16,12 @@ export default function Layout({ children }) {
         <link rel="manifest" href="/site.webmanifest" />
     </Head>
     <header className={styles.header}>
-        <a href="/">
-            <img src="/convectix.svg" alt="Convectix" class={styles.logo} />
-        </a>
+        <Link href="/">
+            <img src="/convectix.svg" alt="Convectix" className={styles.logo} />
+        </Link>
         <description>Telecom and cloud company</description>
         <nav>
-            <a href="/catalog">Catalog</a>
+            <Link href="/catalog">Catalog</Link>
         </nav>
     </header>
     <main className={styles.main}>

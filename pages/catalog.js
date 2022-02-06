@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Catalog.module.scss'
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '../styles/Catalog.module.scss';
 import Layout from '../components/layout';
 
 export default function Catalog({catalog}) {
@@ -9,7 +9,7 @@ export default function Catalog({catalog}) {
         <h1>Catalog</h1>
         <catalog className={styles.catalog}>
         {catalog.map((item) => (
-            <card>
+            <card key={item.title}>
                 <p>{item.title}</p>
                 <img src={item.icon} width={100} />
                 <p>{item.repo}</p>
