@@ -1,0 +1,56 @@
+[
+    {
+       "icon": "https://marketplace.convectix.com/logo/memcached.png",
+       "repo": "https://dl.bsdstore.ru/img/amd64/amd64/13.0/memcached/memcached.img",
+       "title": "memcached",
+       "description": "High-performance distributed memory object cache system",
+       "params": "H_TCP_PORT H_UDP_PORT H_MAX_CONNECTIONS H_UNIX_SOCKET H_PROCESSORCOUNT H_USE_SASL"
+    },
+    {
+       "icon": "https://marketplace.convectix.com/logo/consul.png",
+       "repo": "https://dl.bsdstore.ru/img/amd64/amd64/13.0/consul/consul.img",
+       "title": "consul"
+    },
+    {
+       "icon": "https://marketplace.convectix.com/logo/gitlab.png",
+       "repo": "https://dl.bsdstore.ru/img/amd64/amd64/13.0/gitlab/gitlab.img",
+       "title": "gitlab",
+       "description": "A complete DevOps platform"
+    },
+    {
+       "icon": "https://marketplace.convectix.com/logo/openldap.png",
+       "repo": "https://dl.bsdstore.ru/img/amd64/amd64/13.0/openldap/openldap.img",
+       "title": "openldap",
+       "description": "wip"
+    },
+    {
+       "icon": "https://marketplace.convectix.com/logo/php.png",
+       "repo": "https://dl.bsdstore.ru/img/amd64/amd64/13.0/php/php.img",
+       "title": "php"
+    },
+    {
+       "icon": "https://marketplace.convectix.com/logo/postgresql.png",
+       "repo": "https://dl.bsdstore.ru/img/amd64/amd64/13.0/postgresql/postgresql.img",
+       "title": "postgres"
+    },
+    {
+       "icon": "https://marketplace.convectix.com/logo/redis.png",
+       "repo": "https://dl.bsdstore.ru/img/amd64/amd64/13.0/redis/redis.img",
+       "title": "redis"
+    },
+    {
+       "icon": "https://marketplace.convectix.com/logo/redmine.png",
+       "repo": "https://dl.bsdstore.ru/img/amd64/amd64/13.0/redmine/redmine.img",
+       "title": "redmine"
+    },
+    {
+       "icon": "https://marketplace.convectix.com/logo/rtorrent.png",
+       "repo": "https://dl.bsdstore.ru/img/amd64/amd64/13.0/rtorrent/rtorrent.img",
+       "title": "rtorrent"
+    },
+    {
+       "icon": "https://marketplace.convectix.com/logo/wordpress.png",
+       "repo": "https://dl.bsdstore.ru/img/amd64/amd64/13.0/wordpress/wordpress.img",
+       "title": "wordpress"
+    }
+ ]

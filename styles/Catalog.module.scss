@@ -1,0 +1,9 @@
+.catalog {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    card {
+        border:1px solid #333;
+        padding: 20px 30px;
+    }
+}
