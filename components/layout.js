@@ -21,7 +21,7 @@ export default function Layout({ children }) {
         </Link>
         <description>Telecom and cloud company</description>
         <nav>
-            <Link href="/catalog">Catalog</Link>
+            <Link href="/marketplace">Marketplace</Link>
         </nav>
     </header>
     <main className={styles.main}>

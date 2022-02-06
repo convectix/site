@@ -1,12 +1,12 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from '../styles/Catalog.module.scss';
+import styles from '../styles/Marketplace.module.scss';
 import Layout from '../components/layout';
 
 export default function Catalog({catalog}) {
   return (
     <Layout>
-        <h1>Catalog</h1>
+        <h1>Marketplace</h1>
         <catalog className={styles.catalog}>
         {catalog.map((item) => (
             <card key={item.title}>
