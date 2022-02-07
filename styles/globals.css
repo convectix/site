@@ -1,11 +1,10 @@
+
 body {
     margin: 0;
     background-color: black;
     color: white;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
 }
-
-
 
 a {
     color: #fff;
@@ -15,12 +14,6 @@ ul {
     list-style: none;
 }
 
-#projects {
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#projects div {
-    padding: 10px 20px 30px 20px;
+h1, h2, h3, h4 {
+    margin-bottom: 20px;
 }

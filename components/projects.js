@@ -1,6 +1,8 @@
+import styles from '../styles/projects.module.scss';
+
 export default function Projects() {
     return (
-<section id="projects">
+<section className={styles.projects}>
 <div style={{background: "#28AAE2"}}>
     <h3><a href="https://www.bsdstore.ru/en/about.html">CBSD</a></h3>
     <p>Yet one more wrapper around jail, bhyve and XEN on FreeBSD platform.</p>

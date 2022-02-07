@@ -9,11 +9,12 @@ export default function Catalog({catalog}) {
         <h1>Marketplace</h1>
         <catalog className={styles.catalog}>
         {catalog.map((item) => (
-            <card key={item.title}>
-                <p>{item.title}</p>
-                <img src={item.icon} width={100} />
-                <p>{item.repo}</p>
-            </card>
+          <card key={item.title}>
+            <img src={item.icon} width={100} />
+            <h2>{item.title}</h2>
+            <p className="description">{item.description}</p>
+            <div>{item.repo}</div>
+          </card>
         ))}
         </catalog>
     </Layout>

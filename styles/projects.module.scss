@@ -1,0 +1,18 @@
+.projects {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects div {
+    display: block;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 20px 30px 20px;
+    * {
+        margin-bottom: 10px;
+    }
+    a {
+        margin-right: 5px;
+    }
+}
