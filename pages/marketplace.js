@@ -22,7 +22,7 @@ export default function Catalog({catalog}) {
 }
 
 export async function getStaticProps() {
-    const res = await fetch('https://termbin.com/hxfue')
+    const res = await fetch('https://termbin.com/49dlr')
     const json = await res.json()
     return {
       props: {
