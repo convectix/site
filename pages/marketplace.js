@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Marketplace.module.scss';
 import Layout from '../components/layout';
+import Link from 'next/link';
 
 export default function Catalog({catalog}) {
   return (
@@ -13,7 +14,9 @@ export default function Catalog({catalog}) {
             <img src={item.icon} width={100} />
             <h2>{item.title}</h2>
             <p className="description">{item.description}</p>
-            <div>{item.repo}</div>
+            <div>Price: 399 ₽ / month<br/><br/>
+            <Link href="mailto:convectix@yandex.ru?subject=Order virtual machine">Order</Link>
+            </div>
           </card>
         ))}
         </catalog>
