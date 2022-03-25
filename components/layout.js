@@ -29,7 +29,7 @@ export default function Layout({ children }) {
     </main>
     <footer className={styles.footer}>
         <p>
-            &copy; SIA Convectix Europe 2021 &nbsp;&nbsp; <a href="mailto:info@convectix.com">Contact us</a>
+            &copy; SIA Convectix Europe 2021-2022 &nbsp;&nbsp; <a href="mailto:info@convectix.com">Contact us</a>
         </p>
         <p>
             ООО &laquo;Конвектикс&raquo; ИНН 7720857881 ОГРН 1217700597377
