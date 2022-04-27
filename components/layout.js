@@ -22,6 +22,7 @@ export default function Layout({ children }) {
         <description>Telecom and cloud company</description>
         <nav>
             <Link href="/marketplace">Marketplace</Link>
+            <Link href="https://class.convectix.com/">Class</Link>
         </nav>
     </header>
     <main className={styles.main}>
