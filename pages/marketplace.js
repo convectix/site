@@ -25,7 +25,7 @@ export default function Catalog({catalog}) {
 }
 
 export async function getStaticProps() {
-    const res = await fetch('https://termbin.com/kyf7')
+    const res = await fetch('https://raw.githubusercontent.com/convectix/site/main/public/marketplace.json')
     const json = await res.json()
     return {
       props: {
